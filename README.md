@@ -4,4 +4,4 @@
 
 * [ ] 動画を見終わったら自動でみたにチェック
 * [x] みたをおすと次の動画に進む
-* [ ] 再生速度維持
+* [x] 再生速度維持 => 別拡張Video Speed ControllerでRemember playback speed
