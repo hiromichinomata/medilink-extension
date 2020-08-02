@@ -1,15 +1,15 @@
 {
-  "name": "Chrome拡張の雛形です",
-  "description": "これから作るものにあわせて変更してください。",
+  "name": "非公式mediLink動画ヘルパー",
+  "description": "動画を見終わったら自動でみたにチェック&次の動画へ移動。再生速度維持",
   "version": "0.1",
   "manifest_version": 2,
   "content_scripts": [{
-    "matches": ["https://github.com/waterada/chrome-ex-template/*"],
+    "matches": ["https://lec.medilink-study.com/front/video/view/*"],
     "js": ["jquery-3.5.1.min.js", "ChEx.js", "content_script.js"]
   }],
   "options_page": "options.html",
   "permissions": [
-    "https://github.com/waterada/chrome-ex-template/*",
+    "https://lec.medilink-study.com/front/video/view/*",
     "storage"
   ]
 }
