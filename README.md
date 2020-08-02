@@ -1,22 +1,7 @@
-Chrome拡張の雛形
-========================
+# 非公式mediLink動画Chrome拡張
 
-概要
------
+## やりたいこと
 
-これをダウンロードかcloneして、書き換えてください。
-
-
-各種ドキュメント/サンプルページ
------------------------------------
-
-- [使い方](http://qiita.com/waterada/private/f8a53677a46c131a3734)
-- [サンプルページ](https://waterada.github.io/chrome-ex-template/test/example.html)
-- [ChEx.js のドキュメント](ChEx-doc.md)
-- [単体テスト](https://waterada.github.io/chrome-ex-template/test/test.html)
-
-
-License
------------------------------------
-
-MIT
+* 動画を見終わったら自動でみたにチェック
+* 動画を見終わったら次の動画へ自動で移動
+* 再生速度維持
